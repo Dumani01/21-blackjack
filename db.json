@@ -1,0 +1,54 @@
+{
+  "leaderboard": [
+    {
+      "id": 1,
+      "player": "Akira",
+      "score": 121,
+      "outcome": "BLACKJACK",
+      "playerTotal": 21,
+      "dealerTotal": 18,
+      "roundId": "seed-round-001",
+      "createdAt": "2026-09-20T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "player": "Yumi",
+      "score": 118,
+      "outcome": "WIN",
+      "playerTotal": 20,
+      "dealerTotal": 19,
+      "roundId": "seed-round-002",
+      "createdAt": "2026-09-20T10:05:00.000Z"
+    },
+    {
+      "id": 3,
+      "player": "Haru",
+      "score": 112,
+      "outcome": "WIN",
+      "playerTotal": 19,
+      "dealerTotal": 18,
+      "roundId": "seed-round-003",
+      "createdAt": "2026-09-20T10:10:00.000Z"
+    },
+    {
+      "id": 4,
+      "player": "Mika",
+      "score": 105,
+      "outcome": "PUSH",
+      "playerTotal": 18,
+      "dealerTotal": 18,
+      "roundId": "seed-round-004",
+      "createdAt": "2026-09-20T10:12:00.000Z"
+    }
+  ],
+  "gameLogs": [
+    {
+      "id": 1,
+      "player": "Akira",
+      "outcome": "BLACKJACK",
+      "score": 121,
+      "createdAt": "2026-09-20T10:00:01.000Z",
+      "source": "n8n"
+    }
+  ]
+}
