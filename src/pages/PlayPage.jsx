@@ -216,10 +216,6 @@ export default function PlayPage() {
       <div className="table-scene">
         <div className="table-label"><span>SAKURA 21</span><small>MESA DE JUEGO</small></div>
         <div className="deck-stack" aria-hidden="true"><span>和</span></div>
-        <div className="dealing-hand" aria-hidden="true">
-          <span className="hand-glow" />
-          <img className="hand-art" src="/assets/dealer-hand.png" alt="" />
-        </div>
         <div className="play-grid">
           <HandView
             title="Dealer"

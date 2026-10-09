@@ -272,45 +272,6 @@ input {
   font-size: 1.35rem;
 }
 
-.dealing-hand {
-  position: absolute;
-  z-index: 4;
-  right: 8%;
-  bottom: 34px;
-  width: 150px;
-  height: 150px;
-  pointer-events: none;
-  animation: deal-hand 3.8s ease-in-out infinite;
-}
-
-.hand-art {
-  position: absolute;
-  right: -155px;
-  bottom: -20px;
-  display: block;
-  width: 420px;
-  max-width: none;
-  filter: drop-shadow(0 12px 8px rgba(0,0,0,0.36));
-  mix-blend-mode: screen;
-  transform: rotate(-7deg);
-}
-
-.hand-glow {
-  position: absolute;
-  right: 14px;
-  bottom: 8px;
-  width: 90px;
-  height: 28px;
-  border-radius: 50%;
-  background: rgba(244, 162, 97, 0.28);
-  filter: blur(14px);
-}
-
-@keyframes deal-hand {
-  0%, 100% { transform: translate(22px, 12px) rotate(7deg); }
-  45%, 65% { transform: translate(-22px, -6px) rotate(-3deg); }
-}
-
 .hero-grid {
   grid-template-columns: 1.25fr 0.95fr;
 }
@@ -679,15 +640,4 @@ input {
     transform-origin: top right;
   }
 
-  .dealing-hand {
-    right: -4px;
-    bottom: 12px;
-    transform: scale(0.72);
-    transform-origin: bottom right;
-  }
-
-  .hand-art {
-    right: -138px;
-    bottom: -14px;
-  }
 }
